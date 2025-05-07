@@ -75,4 +75,128 @@ margin-bottom: 30px;
 }
 
 
+#about {
+    background-color: blue;
+}
+
+#about img{
+    border: 5px solid brown;
+}
+
+#about .btn-brand {
+    background-color: brown;
+    color: greenyellow;
+}
+
+#about h2{
+    color: brown;
+    font-size: 95px;
+}
+
+.wew{
+    width: 65px;
+}
+
+.testimonials {
+border: 3px solid brown;
+padding: 20px;
+margin-top: 20px;
+transition: all ease-in .4s;
+}
+
+.testimonials:hover {
+    transform: scale(1.1);
+}
+
+#reviews h2{
+    font-size: 55px;
+}
+
+#faq{
+    background-color: brown;
+}
+    
+.faq-section {
+max-width: 800px;
+margin: auto;
+}
+.acccordion {
+    background-color:blue;
+    color: white;
+    border-bottom: 1px solid brown;
+    border-radius: 0 !important;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.accordion-body {
+    border-left: 3px solid aqua  ;
+    padding: 10px 25px;
+    margin-left: 0;
+    background-color: darkblue;
+    color: white;
+}
+
+.acccordion-button:not(.collapsed) {
+    background-color: red;
+    color: white;
+}
+
+.accordion-button:hover{
+    background-color: rgb(172, 240, 12);
+    color: black;
+}
+
+#footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: black;
+    }
+#footer ul.list-unstyled li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+#footer ul.list-unstyled li a:hover{
+    color: blueviolet;
+}
+#footer button {
+    border-radius: 1px;
+}
+@media screen and (max-width: 768px) {
+    .navbar{
+        height: auto;
+    }
+    #banner h1{
+        font-size: 40px !important;
+    }
+    #sugpon h2{
+        font-size: 40px !important;
+    }
+    #sugpon .col {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    section {
+        padding: 60px 20px !important;
+    }
+
+    #footer {
+        padding: 60px 20px !important;
+    }
+    #about img{
+        height: 410px;
+        width: 250px !important;
+        margin: 0 auto;
+        object-fit: cover;
+    }
+    #about h2{
+        font-size: 40px !important;
+    }
+}   
 
